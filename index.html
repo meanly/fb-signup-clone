@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facebook - login or signup</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <nav class="header-bar">
+    <img class="brand-logo" src="fb.png">
+    <form class="signin-form">
+      <div class="user-email">
+        <div class="text-label">Email or Phone</div>
+        <input type="text" name="">
+      </div>
+      <div class="user-password">
+        <div class="text-label">Password</div>
+        <input type="password" name="">
+      </div>
+      <button class="signin-button">Login</button>
+      <p class="forgot-pass">
+        <a href="#">Forgotten your password?</a>
+    </p>  
+    </form>
+    <div class="checkbox-container">
+      <input type="checkbox" id="remember-me" name="remember-me" value="remember-mee">
+      <label for="remember-me">Keep me logged in</label>
+    </div>
+  </nav>
+
+  <section>
+    <div class="welcome-section">
+      <img class="main-logo" src="pngwing.com.png">
+      <!--<p class="greeting-message message1">Thanks for stopping by!</p> -->
+      <!-- <p class="greeting-message">We hope to see you again soon.</p> -->
+    </div>
+
+    <div class="register-section">
+      <p class="create-account">Sign Up</p>
+      <p class="free-note">It's free and always will be.</p>
+      <form class="register-form">
+        <div>
+          <input class="user-firstname" type="text" name="" placeholder="First name">
+          <input class="user-lastname" type="text" name="" placeholder="Last name">
+          <input class="user-email" type="text" name="" placeholder="Your email address">
+          <input class="user-email" type="text" name="" placeholder="Re-enter email address">
+          <input class="user-pass" type="password" name="" placeholder="New Password">
+          <!-- <input class="user-pass-confirm" type="password" name="" placeholder="Confirm password"> -->
+        </div>
+        <p class="dob-label">Birthday</p>
+        <div class="dob-input">
+          <select class="dob-day">
+            <option>Day</option><option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option><option>7</option>
+            <option>8</option><option>9</option><option>10</option><option>11</option>
+            <option>12</option><option>13</option><option>14</option><option>15</option>
+            <option>16</option><option>17</option><option>18</option><option>19</option>
+            <option>20</option><option>21</option><option>22</option><option>23</option>
+            <option>24</option><option>25</option><option>26</option><option>27</option>
+            <option>28</option><option>29</option><option>30</option>
+          </select>
+         <select class="dob-month">
+           <option>Month</option><option>Jan</option><option>Feb</option><option>Mar</option>
+           <option>Apr</option><option>May</option><option>Jun</option><option>Jul</option>
+           <option>Aug</option><option>Sep</option><option>Oct</option><option>Nov</option>
+           <option>Dec</option>
+         </select>
+         <select class="dob-year">
+           <option>Year</option><option>1970</option><option>1972</option><option>1974</option>
+           <option>1976</option><option>1978</option><option>1980</option><option>1982</option>
+           <option>1984</option><option>1986</option><option>1988</option><option>1990</option>
+           <option>1992</option><option>1995</option><option>1997</option><option>2000</option>
+           <option>2002</option><option>2003</option><option>2004</option><option>2005</option>
+           <option>2006</option><option>2007</option><option>2008</option>
+         </select>
+         <p class="dob-help"><a href="#">Why do I need to provide my date of birth?</a></p>
+        </div>
+
+        <div class="gender-choice">
+          <input type="radio" name="gender" value="female" id="option-female" class="radio-option-female">
+          <label for="option-female" class="label-option-female">Female</label>
+          
+          <input type="radio" name="gender" value="male" id="option-male" class="radio-option-male">
+          <label for="option-male" class="label-option-male">Male</label>
+      </div>
+      
+        <p class="terms-agreement">By clicking Sign Up, you agree to our <a href="#">Terms, Data Policy and Cookies Policy.</a> You may receive SMS Notifications from us and can opt out any time.</p>
+
+        <button class="register-button">Sign Up</button>
+        
+      </form>
+    </div>
+
+    <footer>
+      <p>Created by: Antiquera, Jeremy C. BCS31 | September 29, 2024</p>
+      <p>This website is a clone of the old Facebook sign-up page and is intended for educational purposes only.</p>
+  </footer>
+
+  </section>
+  <script src="signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-bar{
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(#48649F, #3B5998, #3B5998);
+    border-bottom: 1px solid #253a69;
+}
+.brand-logo{
+    position: absolute;
+    height: 63px;
+    width: 190px;
+    left: 13%;
+    padding-top: 15px;
+}
+
+.main-logo {
+    position: relative;
+    top: 30px;
+    left: -20%;
+    scale: 70%;
+}
+
+.checkbox-container {
+    display: inline-flex; 
+    align-items: center;  
+    position: relative; 
+    right: -58.5%;
+    bottom: -79%;
+}
+
+input[type="checkbox"]#remember-me {
+    transform: scale(0.8);
+}
+
+label[for="remember-me"] {
+    color: rgb(164, 173, 214); 
+    font-size: 12px;
+    font-family: verdana;
+}
+
+.forgot-pass a {
+    display: inline-flex; 
+    align-items: center;
+    text-decoration: none;
+    color: rgb(164, 173, 214);
+    font-size: 12px;
+    font-family: verdana;
+    position: relative; 
+    right: 140.2%;
+    top: 45px;
+}
+
+.forgot-pass a:hover {
+    text-decoration: underline; 
+}
+
+.forgot-pass{
+    font-size: 15px;
+}
+
+.signin-form{
+    display: flex;
+    position: absolute;
+    font-family: verdana;
+    left: 58%;
+    top: 15px;
+}
+.signin-form .user-email,
+.signin-form .user-password{
+    padding-left: 10px;
+}
+.signin-form .user-email .text-label,
+.signin-form .user-password .text-label{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: white;
+}
+.signin-form .user-email input,
+.signin-form .user-password input{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+.signin-form button{
+    height: 24px;
+    width: 50px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background: #2d5bba;
+    border: 1px solid #224285;
+}
+.signin-form button:hover{
+    background: #3b5998;
+}
+
+section{
+    height: 800px;
+    width: 100%;
+    top: 80px;
+    background: linear-gradient(#FDFDFE, #EFF1F6, #E3E6F0, #E1E5F0, #D6DBEA);
+    font-family: verdana;
+}
+.welcome-section{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+.welcome-section .greeting-message{
+    font-family: arial;
+    font-size: 25px;
+    margin-left: -30px;
+}
+.welcome-section .message1{
+    color: #083987;
+    margin-left: 20px;   
+    margin-bottom: 5px;
+}
+.register-section{
+    font-family: arial;
+    position: absolute;
+    left: 57%;  
+}
+.register-section .create-account{
+    font-size: 40px;
+    margin: 25px 0;
+    font-weight: bold;
+}
+.register-section .free-note{
+    margin: -20px 0px;
+    font-size: 18px;
+}
+.register-section .register-form input{
+    margin-top: 40px;
+    height: 38px;
+    width: 23%;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+
+.register-section .register-form {
+    max-width: 820px; 
+}
+
+.gender-choice input[type="radio"] {
+    margin-top: 15px; 
+    height: 15px;
+    width: 22px;
+}
+
+.gender-choice .label-option-female,
+.gender-choice .label-option-male {
+    font-weight: bold; 
+}
+
+.register-section .register-form .user-lastname{
+    margin-left: 15px;
+}
+.register-section .register-form .user-email,
+.register-section .register-form .user-pass,
+.register-section .register-form .user-pass-confirm{
+    margin-top: 12px;
+    width: 410px;
+}
+.register-section .register-form .dob-label{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dob-label {
+    font-weight: bold;
+    color: rgb(36, 45, 59);
+}
+.register-section .register-form .dob-input{
+    margin-top: 5px;
+}
+.register-section .register-form .dob-month,
+.register-section .register-form .dob-day,
+.register-section .register-form .dob-year{
+    height: 28px;
+}
+
+.dob-day {
+    position: relative;
+    width: 50px;
+    left: 6px;
+}
+.register-section .register-form .dob-day,
+.register-section .register-form .dob-year{
+    margin-left: -5px;
+}
+.register-section .register-form .dob-help{
+    font-size: 11px;
+    padding-left: 170px;
+    margin-top: -28px;
+    width: 150px;
+}
+.register-section .register-form a{
+    text-decoration: none;
+}
+.register-section .register-form a:hover{
+    text-decoration: underline;
+}
+.register-section .register-form .text-label{
+    margin-left: 57px;
+    margin-top: -17px;
+}
+
+.register-section .register-form .terms-agreement{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 350px;
+    color: grey;
+}
+.register-section .register-form .register-button{
+    margin-top: 20px;
+    height: 38px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #006117;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(#6fad5a, #66a150, #60974C);
+}
+.register-section .register-form .register-button:hover{
+    background: linear-gradient(#74b85e, #598B45);
+}
+
+footer {
+    text-align: center;  
+    padding: 20px;     
+    background-color: #3b5998;; 
+    color: #97b4e0;   
+    font-family: Arial, sans-serif; 
+    position: relative;    
+    bottom: -785px;     
+    width: 97.9%;          
+    height: 4.9%;
+}
