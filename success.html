@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facebook - login or signup</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .header-bar{
+      height: 80px;
+      width: 100%;
+      background: linear-gradient(#48649F, #3B5998, #3B5998);
+      border-bottom: 1px solid #253a69;
+    }
+    .brand-logo{
+      position: absolute;
+      height: 63px;
+      width: 190px;
+      left: 13%;
+      padding-top: 15px;
+    }
+
+    .main-logo {
+      position: relative;
+      top: -200px;
+      left: 10%;
+      scale: 30%;
+    }
+
+    .checkbox-container {
+      display: inline-flex; 
+      align-items: center;  
+      position: relative; 
+      right: -58.5%;
+      bottom: -79%;
+    }
+
+    input[type="checkbox"]#remember-me {
+      transform: scale(0.8);
+    }
+
+    label[for="remember-me"] {
+      color: rgb(164, 173, 214); 
+      font-size: 12px;
+      font-family: verdana;
+    }
+
+    .forgot-pass a {
+      display: inline-flex; 
+      align-items: center;
+      text-decoration: none;
+      color: rgb(164, 173, 214);
+      font-size: 12px;
+      font-family: verdana;
+      position: relative; 
+      right: 140.2%;
+      top: 45px;
+    }
+
+    .forgot-pass a:hover {
+      text-decoration: underline; 
+    }
+
+    .forgot-pass{
+      font-size: 15px;
+    }
+
+    .signin-form{
+      display: flex;
+      position: absolute;
+      font-family: verdana;
+      left: 58%;
+      top: 15px;
+    }
+    .signin-form .user-email,
+    .signin-form .user-password{
+      padding-left: 10px;
+    }
+    .signin-form .user-email .text-label,
+    .signin-form .user-password .text-label{
+      font-size: 13px;
+      padding-bottom: 4px;
+      color: white;
+    }
+    .signin-form .user-email input,
+    .signin-form .user-password input{
+      height: 23px;
+      width: 150px;
+      padding-left: 5px;
+      border: 1px solid black;
+      outline: none;
+    }
+    .signin-form button{
+      height: 24px;
+      width: 50px;
+      font-weight: 600;
+      margin-left: 15px;
+      margin-top: 20px;
+      border-radius: 2px;
+      outline: none;
+      color: white;
+      cursor: pointer;
+      background: #2d5bba;
+      border: 1px solid #224285;
+    }
+    .signin-form button:hover{
+      background: #3b5998;
+    }
+
+    section{
+      height: 750px;
+      width: 100%;
+      top: 80px;
+      background: linear-gradient(#FDFDFE, #EFF1F6, #E3E6F0, #E1E5F0, #D6DBEA);
+      font-family: verdana;
+    }
+    .welcome-section{
+      position: absolute;
+      left: 15%;
+      top: 20%;
+    }
+    .welcome-section .greeting-message{
+      font-family: arial;
+      font-size: 25px;
+      margin-left: -30px;
+    }
+    .welcome-section .message1{
+      color: #083987;
+      margin-left: 20px;   
+      margin-bottom: 5px;
+    }
+
+    footer {
+      text-align: center;  
+      padding: 20px;     
+      background-color: #3b5998; 
+      color: #97b4e0;   
+      font-family: Arial, sans-serif; 
+      position: relative;    
+      bottom: -732px;     
+      width: 97.9%;          
+      height: 4.9%;
+    }
+
+    .success-message {
+      font-weight: bold;
+      color: rgb(55, 70, 99);
+      padding: 20px;
+      text-align: center;
+      font-size: 30px;
+      font-family: verdana;
+    }
+  </style>
+</head>
+<body>
+  <nav class="header-bar">
+    <img class="brand-logo" src="fb.png">
+    <form class="signin-form">
+      <div class="user-email">
+        <div class="text-label">Email or Phone</div>
+        <input type="text" name="">
+      </div>
+      <div class="user-password">
+        <div class="text-label">Password</div>
+        <input type="password" name="">
+      </div>
+      <button class="signin-button">Login</button>
+      <p class="forgot-pass">
+        <a href="#">Forgotten your password?</a>
+      </p>  
+    </form>
+    <div class="checkbox-container">
+      <input type="checkbox" id="remember-me" name="remember-me" value="remember-mee">
+      <label for="remember-me">Keep me logged in</label>
+    </div>
+  </nav>
+
+  
+  <div class="success-message">
+    <p>You successfully created an account</p>
+  </div>
+
+  <section>
+    <div class="welcome-section">
+      <img class="main-logo" src="oldfb_like.png">
+    </div>
+
+    <footer>
+      <p>Created by: Antiquera, Jeremy C. BCS31 | September 29, 2024</p>
+      <p>This website is a clone of the old Facebook sign-up page and is intended for educational purposes only.</p>
+    </footer>
+  </section>
+  <script src="signup.js"></script>
+</body>
+</html>
